@@ -1,0 +1,26 @@
+{
+  "name": "unzimmer",
+  "version": "0.0.1",
+  "description": "Zim file unpacker",
+  "main": "unzimmer.js",
+  "scripts": {
+    "test": "echo no tests"
+  },
+  "private": true,
+  "keywords": [
+    "zim",
+    "unpack"
+  ],
+ "dependencies": {
+    "async": "*",
+    "expand-home-dir": "*",
+    "xz": "*",
+    "htmlparser2": "*",
+    "domutils": "*",
+    "csv-stringify": "*",
+    "fs-extra": "*",
+    "yargs": "*"
+  },
+  "author": "Vadim Shlykahov",
+  "license": "ISC"
+}
